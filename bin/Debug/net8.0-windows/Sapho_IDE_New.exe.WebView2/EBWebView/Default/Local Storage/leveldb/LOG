@@ -1,5 +1,2 @@
-2024/06/16-21:01:49.072 5db0 Reusing MANIFEST D:\NIPSCERN\saphoIDE-files\bin\Debug\net8.0-windows\Sapho_IDE_New.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2024/06/16-21:01:49.088 5db0 Recovering log #150
-2024/06/16-21:01:49.168 5db0 Level-0 table #152: started
-2024/06/16-21:01:49.189 5db0 Level-0 table #152: 18438 bytes OK
-2024/06/16-21:01:49.197 5db0 Delete type=0 #150
+2024/06/17-11:51:42.699 3d20 Creating DB C:\Users\LCOM\Desktop\Github\Gackstatter\bin\Debug\net8.0-windows\Sapho_IDE_New.exe.WebView2\EBWebView\Default\Local Storage\leveldb since it was missing.
+2024/06/17-11:51:42.717 3d20 Reusing MANIFEST C:\Users\LCOM\Desktop\Github\Gackstatter\bin\Debug\net8.0-windows\Sapho_IDE_New.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
