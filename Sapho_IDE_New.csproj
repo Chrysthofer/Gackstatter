@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>1498583471_kcmprocessor.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CMM.xshd" />
+    <None Remove="Icons\1498583471_kcmprocessor.ico" />
+    <None Remove="Icons\icon-sapho.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="1498583471_kcmprocessor.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CMM.xshd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Icons\icon-sapho.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\1498583471_kcmprocessor.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.3.0.90" />
+    <PackageReference Include="BotTimeICSharpCode.AvalonEdit" Version="1.0.2" />
+    <PackageReference Include="ConEmu.Core" Version="23.7.24" />
+    <PackageReference Include="DevExpressMvvm" Version="23.2.3" />
+    <PackageReference Include="Dragablz" Version="0.0.3.234" />
+    <PackageReference Include="FCTB" Version="2.16.24" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2535.41" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PresentationFramework.Aero2" Version="1.0.1" />
+    <PackageReference Include="Terminal.Gui" Version="1.17.0" />
+    <PackageReference Include="WindowsAPICodePack" Version="7.0.4" />
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SyntaxHighlighting\" />
+  </ItemGroup>
+
+</Project>
